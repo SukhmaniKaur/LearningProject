@@ -15,6 +15,11 @@
 		FA5B0F1F272FFD4F0038BDA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5B0F1D272FFD4F0038BDA2 /* LaunchScreen.storyboard */; };
 		FA5B0F2A272FFD500038BDA2 /* LearningProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0F29272FFD500038BDA2 /* LearningProjectTests.swift */; };
 		FA5B0F35272FFD500038BDA2 /* LearningProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0F34272FFD500038BDA2 /* LearningProjectUITests.swift */; };
+		FA5B0F47273002810038BDA2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0F45273002800038BDA2 /* TableViewCell.swift */; };
+		FA5B0F48273002810038BDA2 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5B0F46273002800038BDA2 /* TableViewCell.xib */; };
+		FA5B0F4E273002D90038BDA2 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0F4C273002D90038BDA2 /* HeaderCell.swift */; };
+		FA5B0F4F273002D90038BDA2 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5B0F4D273002D90038BDA2 /* HeaderCell.xib */; };
+		FA5B0F542730035B0038BDA2 /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0F532730035B0038BDA2 /* AppEnums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		FA5B0F30272FFD500038BDA2 /* LearningProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5B0F34272FFD500038BDA2 /* LearningProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningProjectUITests.swift; sourceTree = "<group>"; };
 		FA5B0F36272FFD500038BDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5B0F45273002800038BDA2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FA5B0F46273002800038BDA2 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		FA5B0F4C273002D90038BDA2 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		FA5B0F4D273002D90038BDA2 /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		FA5B0F532730035B0038BDA2 /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				FA5B0F1B272FFD4F0038BDA2 /* Assets.xcassets */,
 				FA5B0F1D272FFD4F0038BDA2 /* LaunchScreen.storyboard */,
 				FA5B0F20272FFD4F0038BDA2 /* Info.plist */,
+				FA5B0F45273002800038BDA2 /* TableViewCell.swift */,
+				FA5B0F46273002800038BDA2 /* TableViewCell.xib */,
+				FA5B0F4C273002D90038BDA2 /* HeaderCell.swift */,
+				FA5B0F4D273002D90038BDA2 /* HeaderCell.xib */,
+				FA5B0F532730035B0038BDA2 /* AppEnums.swift */,
 			);
 			path = LearningProject;
 			sourceTree = "<group>";
@@ -231,7 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5B0F4F273002D90038BDA2 /* HeaderCell.xib in Resources */,
 				FA5B0F1F272FFD4F0038BDA2 /* LaunchScreen.storyboard in Resources */,
+				FA5B0F48273002810038BDA2 /* TableViewCell.xib in Resources */,
 				FA5B0F1C272FFD4F0038BDA2 /* Assets.xcassets in Resources */,
 				FA5B0F1A272FFD4B0038BDA2 /* Main.storyboard in Resources */,
 			);
@@ -259,7 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5B0F17272FFD4B0038BDA2 /* ViewController.swift in Sources */,
+				FA5B0F4E273002D90038BDA2 /* HeaderCell.swift in Sources */,
+				FA5B0F47273002810038BDA2 /* TableViewCell.swift in Sources */,
 				FA5B0F13272FFD4B0038BDA2 /* AppDelegate.swift in Sources */,
+				FA5B0F542730035B0038BDA2 /* AppEnums.swift in Sources */,
 				FA5B0F15272FFD4B0038BDA2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
